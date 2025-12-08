@@ -5,6 +5,21 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-for-1:   #ffff00;
+    --color-for-2:   #ffbb00;
+    --color-for-4:   #ff9900;
+    --color-for-8:   #ff7700;
+    --color-for-16:  #ff5500;
+    --color-for-32:  #ff4400;
+    --color-for-64:  #f00f00;
+    --color-for-128: #b00f00;
+    --color-for-256: #900f00;
+    --color-for-512: #700f00;
+    --color-for-1024:#600f00;
+    --color-for-2048: linear-gradient(to right, #ffff00 , #500f00 90%);
+}
+
 html {
     font-family:        monospace;
     background-color: black;

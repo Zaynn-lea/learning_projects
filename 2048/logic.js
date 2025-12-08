@@ -9,6 +9,13 @@
         [0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0]
     ];
+    const game_state_test = [
+        [0,   1,    2,    4,   8],
+        [16,  32,   64,   128, 256],
+        [512, 1024, 2048, 0,   0],
+        [0,   0,    0,    0,   0],
+        [0,   0,    0,    0,   0]
+    ];
 
     
     function goUp() {
@@ -167,10 +174,12 @@
             const state = game_state[Math.floor(i / 5)][i % 5];
 
             if (state != 0) {
-                node.innerHTML = state;
+                node.innerHTML        = state;
+                node.style.background = "var(--color-for-" + state + ")";
             }
             else {
                 node.innerHTML = "";
+                node.style.backgroundColor = "black";
             }
 
             node = node.nextElementSibling;
