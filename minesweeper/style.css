@@ -1,0 +1,52 @@
+
+* {
+    margin:     0;
+    padding:    0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-for--1:  #ff0000;   /* Aka the mines */
+    --color-for-0:   #d0d0d0;
+    --color-for-1:   #00ff00;
+    --color-for-2:   #00b424;
+    --color-for-3:   #009048;
+    --color-for-4:   #00a86c;
+    --color-for-5:   #006c90;
+    --color-for-6:   #0048b4;
+    --color-for-7:   #0024d8;
+    --color-for-8:   #0000ff;
+}
+
+html {
+    font-family:        monospace;
+    background-color: black;
+    color:            white;
+    display:            flex;
+    justify-content:    center;
+}
+
+h1 {
+    font-size: 4rem;
+    margin:    2rem;
+}
+
+main div {
+    display: grid;
+}
+
+main div div {
+    border:          .2rem solid white;
+    border-radius:   10%;
+    margin:          .1rem;
+    padding:         .5rem;
+    font-size:       1.3em;
+    width:           2rem;
+    height:          2rem;
+    justify-content: center;
+}
+
+
+footer {
+    margin: 2em;
+}
